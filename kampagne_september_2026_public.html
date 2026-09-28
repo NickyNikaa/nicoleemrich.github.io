@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>September-Kampagne 2026 · Kampagnen-Übersicht</title><meta name="robots" content="noindex, nofollow">
+<style>
+:root{color-scheme:light;--bg:#f4f5fc;--card:#fff;--line:#e3e4ef;--tx:#14151f;--tx2:#4d4f60;
+--mut:#7e8095;--a:#6d28d9;--b:#eb6834;--good:#008300;--warn:#eda100;--crit:#e34948}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);line-height:1.5;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.wrap{max-width:1400px;margin:0 auto;padding:0 20px 60px}
+header{background:linear-gradient(115deg,var(--a),#9333ea 45%,var(--b));color:#fff;padding:30px 0 26px;margin-bottom:22px}
+header .wrap{padding-bottom:0}
+.eye{font-size:12px;letter-spacing:.13em;text-transform:uppercase;opacity:.85;margin:0 0 6px}
+h1{margin:0 0 6px;font-size:27px;letter-spacing:-.02em}
+.sub{margin:0;font-size:14px;opacity:.92}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi .v{font-size:26px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .l{font-size:12.5px;color:var(--tx2);margin-top:4px}
+.kpi .n{font-size:11.5px;color:var(--mut);margin-top:2px}
+h2{font-size:18px;margin:30px 0 10px}
+.box{border-radius:12px;padding:16px 20px;margin:16px 0}
+.box.crit{background:#fdeeee;border:1px solid #f6cfcf;border-left:4px solid var(--crit)}
+.box.warn{background:#fdf8ec;border:1px solid #f3e2bd;border-left:4px solid var(--warn)}
+.box.info{background:#eef4fd;border:1px solid #cfe0f6;border-left:4px solid #2563eb}
+.box h3{margin:0 0 6px;font-size:15.5px}
+.box.crit h3{color:#b02b2b} .box.warn h3{color:#8a5d00} .box.info h3{color:#1d4ed8}
+.box p{margin:0 0 8px;font-size:14px} .box.crit p{color:#7a2020} .box.warn p{color:#6b4a06} .box.info p{color:#1e3a6e}
+.box ul{margin:6px 0 0;padding-left:20px;font-size:14px}
+.box.crit ul{color:#7a2020} .box li{margin-bottom:6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:13px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--mut);
+padding:12px 12px 9px;border-bottom:1px solid var(--line);font-weight:600;background:#fbfbfd;white-space:nowrap}
+td{padding:13px 12px;border-bottom:1px solid #f2f3f9;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.pid{font-size:11px;color:var(--mut)}
+.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.erw{color:var(--tx2);max-width:170px;font-size:12.5px}
+.off{font-size:12px;color:var(--tx2);display:block;margin-top:5px;max-width:330px}
+.next{max-width:210px;font-size:12.5px}
+.stale{color:#b02b2b;font-weight:600}
+.pill{display:inline-block;font-size:11.5px;font-weight:600;padding:2px 9px;border-radius:99px}
+.p-good{background:#eefaee;color:#006b00} .p-warn{background:#fdf6e5;color:#8a5d00}
+.p-crit{background:#fdeeee;color:#b02b2b} .p-neut{background:#eef0f7;color:#4d4f60}
+footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:12px;color:var(--mut)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:16px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;
+text-decoration:none;color:inherit;display:block;transition:.15s}
+.tile:hover{box-shadow:0 6px 20px rgba(20,21,31,.08)}
+.tile h3{margin:0 0 6px;font-size:16.5px;color:var(--tx)}
+.tile .tsub{font-size:12.5px;color:var(--mut);margin-bottom:12px}
+.tile .trow{display:flex;gap:16px;flex-wrap:wrap}
+.tile .tstat{font-size:12px;color:var(--tx2)}
+.tile .tstat b{color:var(--tx)}
+.perfgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:16px 0}
+.perfcard{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--card)}
+.perfcard h4{margin:0 0 2px;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px;font-weight:600}
+.perfcard .pfval{font-size:17px;font-weight:700;margin-bottom:6px}
+.perfchart{line-height:0}
+.perfhint{font-size:11.3px;color:#b02b2b;margin-top:7px;line-height:1.4}
+</style></head><body>
+<header><div class="wrap">
+<p class="eye">Kampagnen-Übersicht · Mein Schiff DACH (9127)</p>
+<h1>September-Kampagne 2026</h1>
+<p class="sub">Laufzeit 01.–30.09.2026 · Stand 25.09.2026</p>
+<p class="sub" style="margin-top:8px"><a href="kampagnen_uebersicht_public.html" style="color:#fff">← alle Kampagnen</a></p>
+</div></header>
+<div class="wrap">
+<div class="kpis">
+ <div class="kpi"><div class="v">18</div><div class="l">Positionen im Plan</div></div>
+ <div class="kpi"><div class="v">1</div><div class="l">kritische Abweichungen</div></div>
+ <div class="kpi"><div class="v">0</div><div class="l">warten auf Werbemittel</div></div>
+ <div class="kpi"><div class="v">-24</div><div class="l">Tage bis Kampagnenstart</div></div>
+</div>
+<div class="box crit"><h3>1 Position(en) tragen den Plan nicht mehr</h3>
+<ul><li><b>Sales-Anlass 06.–12.10. – Werbemittel (TUI Cruises intern)</b> — Thread „Sales-Anlass 06.-12.10.: Werbemittel“ steht seit dem 21.08. still - heute (11.09.) sind es 21 Tage. Mareen/TUI Cruises hatte zugesagt, dass es eigene Werbemittel geben wird („Brand Team ist bereits dran“), aber nichts Konkretes genannt. Martin (Webquartier/Kreuzfahrtpiraten) wartet weiter; bis zum Kampagnenstart am 06.10. sind es nur noch rund 25 Tage. Der am 30.08. angelegte Nachfass-Entwurf (Draft-ID 49075) liegt weiterhin unversendet in Outlook - pro Thread wird nur ein Entwurf angelegt, dieser Lauf hat daher keinen zweiten erzeugt. Update 16.09.: Thread jetzt 26 Tage still (seit 21.08.) - nur noch rund 20 Tage bis Kampagnenstart am 06.10., TUI Cruises Brand Team hat noch keine konkreten Werbemittel geliefert. Draft 49075 (30.08.) liegt weiterhin unversendet und wird mit jedem Tag dringlicher; kein Zweitentwurf angelegt (Ein-Entwurf-Regel). Update 17.09.: Thread jetzt 27 Tage still (seit 21.08.) - nur noch rund 19 Tage bis Kampagnenstart am 06.10., TUI Cruises Brand Team hat weiterhin keine konkreten Werbemittel geliefert. Draft 49075 (30.08.) liegt weiterhin unversendet und wird mit jedem Tag dringlicher; kein Zweitentwurf angelegt (Ein-Entwurf-Regel). Update 18.09.: Thread jetzt 28 Tage still (seit 21.08.) - nur noch rund 18 Tage bis Kampagnenstart am 06.10., TUI Cruises Brand Team hat weiterhin keine konkreten Werbemittel geliefert. Draft 49075 (30.08.) liegt weiterhin unversendet und wird mit jedem Tag dringlicher; kein Zweitentwurf angelegt (Ein-Entwurf-Regel). Outlook heute byte-identisch zu 17.09. - keine neue Ruckmeldung. Update 20.09.: Thread jetzt 30 Tage still (seit 21.08.) - nur noch rund 16 Tage bis Kampagnenstart am 06.10., TUI Cruises Brand Team hat weiterhin keine konkreten Werbemittel geliefert. Draft 49075 (30.08.) liegt weiterhin unversendet und wird mit jedem Tag dringlicher; kein Zweitentwurf (Ein-Entwurf-Regel). Das ist jetzt der dringendste offene Punkt der gesamten Kommandozentrale.</li></ul></div>
+
+<h2>Live-Performance (01.09. – 25.09.2026  ·  Tag 25)</h2><p style="margin:0 0 10px;font-size:12px;color:var(--mut)">Stand 2026-09-25 09:31  ·  Quelle AWIN Publisher-Report  ·  Payback DE/AT herausgerechnet</p><h3 style="margin:22px 0 4px;font-size:15.5px">Mein Schiff DACH (Programm 9127)</h3><p style="margin:0 0 10px;font-size:12px;color:var(--mut)">15 aktivierte Publisher · Payback DE/AT separat ausgewiesen</p><div class="kpis"><div class="kpi"><div class="v">190</div><div class="l">Sales aktivierte Publisher</div></div><div class="kpi"><div class="v">341</div><div class="l">Sales Programm gesamt</div></div><div class="kpi"><div class="v">55.7 %</div><div class="l">Aktivierten-Anteil an Sales</div></div><div class="kpi"><div class="v">55.4 %</div><div class="l">Aktivierten-Anteil an Umsatz</div></div></div><div class="card" style="margin-top:14px"><table><thead><tr><th>Publisher</th><th>Klicks</th><th>Sales</th></tr></thead><tbody><tr><td><b>Urlaubspiraten / HolidayPirates</b></td><td class="num">42.465</td><td class="num">13</td></tr><tr><td><b>Urlaubstracker</b></td><td class="num">3.744</td><td class="num">36</td></tr><tr><td><b>Checkout Charlie / Sparwelt</b></td><td class="num">1.678</td><td class="num">37</td></tr><tr><td><b>BravoGutschein / Webravo</b></td><td class="num">484</td><td class="num">31</td></tr><tr><td><b>Atolls (Shoop & iGraal)</b></td><td class="num">461</td><td class="num">54</td></tr><tr><td><b>Groupon</b></td><td class="num">2.945</td><td class="num">14</td></tr><tr><td><b>Stephanie Henning (Kreuzfahrtlupe)</b></td><td class="num">3.032</td><td class="num">1</td></tr><tr><td><b>Reisetopia</b></td><td class="num">1.728</td><td class="num">0</td></tr><tr><td><b>My-Cruiseline</b></td><td class="num">14</td><td class="num">0</td></tr><tr><td><b>Robert Becker (Kabinenlotse)</b></td><td class="num">113</td><td class="num">0</td></tr><tr><td><b>Linkbest</b></td><td class="num">0</td><td class="num">0</td></tr><tr><td><b>Kreatornow</b></td><td class="num">575</td><td class="num">0</td></tr><tr><td><b>SmileKols</b></td><td class="num">0</td><td class="num">4</td></tr><tr><td><b>Fancapitalize</b></td><td class="num">0</td><td class="num">0</td></tr><tr><td><b>Sales-Anlass 06.–12.10. – Werbemittel (TUI Cruises intern)</b></td><td class="num">0</td><td class="num">0</td></tr></tbody></table></div><h3 style="margin:22px 0 4px;font-size:15.5px">Mein Schiff International (Programm 104581)</h3><p style="margin:0 0 10px;font-size:12px;color:var(--mut)">2 aktivierte Publisher</p><div class="kpis"><div class="kpi"><div class="v">0</div><div class="l">Sales aktivierte Publisher</div></div><div class="kpi"><div class="v">0</div><div class="l">Sales Programm gesamt</div></div><div class="kpi"><div class="v">0.0 %</div><div class="l">Aktivierten-Anteil an Sales</div></div><div class="kpi"><div class="v">0.0 %</div><div class="l">Aktivierten-Anteil an Umsatz</div></div></div><div class="card" style="margin-top:14px"><table><thead><tr><th>Publisher</th><th>Klicks</th><th>Sales</th></tr></thead><tbody><tr><td><b>Acties.nl</b></td><td class="num">50</td><td class="num">0</td></tr><tr><td><b>EuroClix</b></td><td class="num">19</td><td class="num">0</td></tr></tbody></table></div><h2>Plan gegen Ist</h2>
+<div class="card"><table>
+ <thead><tr><th>Publisher</th><th>Status<br>im Plan</th><th>Stand in den<br>Threads</th><th>Abweichung</th><th>Nächster Schritt</th></tr></thead>
+ <tbody>
+    <tr>
+      <td><b>Sales-Anlass 06.–12.10. – Werbemittel (TUI Cruises intern)</b><br><span class="pid">Cross-Publisher / TUIC-Abstimmung</span></td>
+      <td><span class="pill p-neut">Webquartier fuer Salesanlass Oktober eingeplant</span></td>
+      <td><span class="pill p-warn">Eingeschränkt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-crit">Kritisch</span></td>
+      <td class="next">Nachfass-Entwurf vom 30.08. (Draft 49075) dringend pruefen und versenden - Frist bis 06.10. ruecht auf ca. 25 Tage.</td>
+    </tr>
+    <tr>
+      <td><b>Acties.nl</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-warn">Eingeschränkt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">DRINGEND: mit Koen (Acties.nl/Franke Media) klaeren, ob 325023 die richtige ID ist - nur noch 10 Tage bis Start (21.09.).</td>
+    </tr>
+    <tr>
+      <td><b>Atolls (Shoop & iGraal)</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">angefragt</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Erwartung im Sheet ohne Gutschein-Mechanik realistisch neu ansetzen; Placement-Kalender (s.o.) fuer TUI-Cruises-Reporting nutzen; Gutschein-Idee fuer Sales-Anlass 06.-12.10. vormerken (dort laut TUI Cruises relevanter).</td>
+    </tr>
+    <tr>
+      <td><b>Checkout Charlie / Sparwelt</b><br><span class="pid">Jahresvereinbarung</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Entwurf 50167 pruefen und versenden - kein neuer Entwurf noetig.</td>
+    </tr>
+    <tr>
+      <td><b>Fancapitalize</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">in Creator-Network-Testphase</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span class="stale" style="font-size:11.5px">vor 7 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Bis 17.09. beobachten; bei der Evaluierung die Schieflage (SmileKols traegt, die anderen liefern bislang nichts) beruecksichtigen</td>
+    </tr>
+    <tr>
+      <td><b>Groupon</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Entwurf 49343 pruefen und versenden, dann ist Groupon vollstaendig bestaetigt</td>
+    </tr>
+    <tr>
+      <td><b>Kreatornow</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">in Creator-Network-Testphase</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span class="stale" style="font-size:11.5px">vor 7 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Bis 17.09. beobachten; bei der Evaluierung die Schieflage (SmileKols traegt, die anderen liefern bislang nichts) beruecksichtigen</td>
+    </tr>
+    <tr>
+      <td><b>Linkbest</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">in Creator-Network-Testphase</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span class="stale" style="font-size:11.5px">vor 7 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Bis 17.09. beobachten; bei der Evaluierung die Schieflage (SmileKols traegt, die anderen liefern bislang nichts) beruecksichtigen</td>
+    </tr>
+    <tr>
+      <td><b>Reisetopia</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Keine offene Freigabe mehr – Werbemittelversand/Placement im Blick behalten</td>
+    </tr>
+    <tr>
+      <td><b>Robert Becker (Kabinenlotse)</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Draft 49850 pruefen und versenden; falls weiter keine Reaktion, Platzierung als schwach einstufen.</td>
+    </tr>
+    <tr>
+      <td><b>Urlaubspiraten / HolidayPirates</b><br><span class="pid">Jahresvereinbarung</span></td>
+      <td><span class="pill p-neut">Wellenwoche ab 28.09.</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Entwurf 50109 pruefen und versenden (Reconfirm Sept+Okt-Paket); danach Call zum Exklusivitaets-Thema terminieren.</td>
+    </tr>
+    <tr>
+      <td><b>Webquartier – Kreuzfahrtpiraten</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">für Salesanlass im Oktober eingeplant</span></td>
+      <td><span class="pill p-neut">Verschoben</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-warn">Zu klären</span></td>
+      <td class="next">Termin für den Oktober-Salesanlass setzen, WKZ im Sheet umbuchen</td>
+    </tr>
+    <tr>
+      <td><b>BravoGutschein / Webravo</b><br><span class="pid">Jahresvereinbarung</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Kein Nachfass noetig; Featured-Brands-Slot bis 13.09. im Blick behalten.</td>
+    </tr>
+    <tr>
+      <td><b>EuroClix</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Mit TUI Cruises/EuroClix klaeren, ob die Aktivierung bewusst nur ueber Mein Schiff International (104581) laufen soll oder ob zusaetzlich eine DACH-Anbindung (9127) noetig ist</td>
+    </tr>
+    <tr>
+      <td><b>My-Cruiseline</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Werbemittel liegen vor - Placement laeuft, Performance im Blick behalten</td>
+    </tr>
+    <tr>
+      <td><b>SmileKols</b><br><span class="pid">CPO-Hebel</span></td>
+      <td><span class="pill p-neut">in Creator-Network-Testphase</span></td>
+      <td><span class="pill p-good">Läuft</span><br><span class="stale" style="font-size:11.5px">vor 7 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Bis 17.09. beobachten; bei der Evaluierung die Schieflage (SmileKols traegt, die anderen liefern bislang nichts) beruecksichtigen</td>
+    </tr>
+    <tr>
+      <td><b>Stephanie Henning (Kreuzfahrtlupe)</b><br><span class="pid">Zusatz-WKZ</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Werbemittel liegen vor - Placement laeuft, Performance im Blick behalten</td>
+    </tr>
+    <tr>
+      <td><b>Urlaubstracker</b><br><span class="pid">Jahresvereinbarung</span></td>
+      <td><span class="pill p-neut">bestätigt</span></td>
+      <td><span class="pill p-good">Zugesagt</span><br><span style="font-size:11.5px">vor 5 Tg.</span></td>
+      <td><span class="pill p-neut">—</span></td>
+      <td class="next">Werbemittel liegen vor - Placement laeuft, Performance im Blick behalten</td>
+    </tr>
+ </tbody></table></div>
+
+<h2>Performance-Trend<span style="font-weight:400;color:var(--mut);font-size:13px"> · tägliche AWIN-Zeitreihe, Programm (öffentlich: nur Klicks/Sales)</span></h2>
+<div class="perfgrid" id="perfgrid"></div>
+<script>const PERF_TAGE = [{"datum": "2026-07-26", "klicks": null, "sales": 37}, {"datum": "2026-07-27", "klicks": null, "sales": 34}, {"datum": "2026-07-28", "klicks": null, "sales": 22}, {"datum": "2026-07-29", "klicks": null, "sales": 23}, {"datum": "2026-07-30", "klicks": null, "sales": 17}, {"datum": "2026-07-31", "klicks": null, "sales": 41}, {"datum": "2026-08-01", "klicks": null, "sales": 25}, {"datum": "2026-08-02", "klicks": null, "sales": 35}, {"datum": "2026-08-03", "klicks": null, "sales": 27}, {"datum": "2026-08-04", "klicks": null, "sales": 26}, {"datum": "2026-08-05", "klicks": null, "sales": 20}, {"datum": "2026-08-06", "klicks": null, "sales": 11}, {"datum": "2026-08-07", "klicks": null, "sales": 29}, {"datum": "2026-08-08", "klicks": null, "sales": 15}, {"datum": "2026-08-09", "klicks": null, "sales": 23}, {"datum": "2026-08-10", "klicks": null, "sales": 33}, {"datum": "2026-08-11", "klicks": null, "sales": 24}, {"datum": "2026-08-12", "klicks": null, "sales": 12}, {"datum": "2026-08-13", "klicks": null, "sales": 22}, {"datum": "2026-08-14", "klicks": null, "sales": 29}, {"datum": "2026-08-15", "klicks": null, "sales": 18}, {"datum": "2026-08-16", "klicks": null, "sales": 33}, {"datum": "2026-08-17", "klicks": null, "sales": 34}, {"datum": "2026-08-18", "klicks": null, "sales": 43}, {"datum": "2026-08-19", "klicks": null, "sales": 30}, {"datum": "2026-08-20", "klicks": null, "sales": 32}, {"datum": "2026-08-21", "klicks": null, "sales": 24}, {"datum": "2026-08-22", "klicks": null, "sales": 17}, {"datum": "2026-08-23", "klicks": null, "sales": 32}, {"datum": "2026-08-24", "klicks": null, "sales": 23}];</script>
+<script>
+function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function fmtN(x){return Number(x||0).toLocaleString("de-DE",{maximumFractionDigits:0});}
+function fmtEur(x){return Number(x||0).toLocaleString("de-DE",{maximumFractionDigits:0})+" €";}
+function trendChart(el, tage, key, farbe, istEuro){
+  var pts = tage.map(function(t){ return {x:t.datum, y:Number(t[key])||0}; });
+  if(pts.length < 3){ el.innerHTML = '<div style="font-size:12px;color:var(--mut)">Noch zu wenig Zeitreihe.</div>'; return {last:pts.length?pts[pts.length-1].y:0, hintHtml:""}; }
+  var w=260,h=64,padL=4,padR=4,padT=6,padB=4;
+  var ys = pts.map(function(p){return p.y;});
+  var ymin = Math.min.apply(null, ys), ymax = Math.max.apply(null, ys);
+  if(ymin===ymax){ ymin -= 1; ymax += 1; }
+  function X(i){ return padL + i*(w-padL-padR)/(pts.length-1); }
+  function Y(v){ return h-padB - (v-ymin)*(h-padT-padB)/(ymax-ymin); }
+  var anomalien = [];
+  pts.forEach(function(p,i){
+    if(i < 7) return;
+    var prev = pts.slice(i-7, i).map(function(q){return q.y;}).sort(function(a,b){return a-b;});
+    var med = prev[Math.floor(prev.length/2)];
+    if(med > 0){
+      var abw = (p.y - med) / med;
+      if(Math.abs(abw) >= 0.5){ p.anomalie = true; p.abw = abw; anomalien.push({datum:p.x, abw:abw}); }
+    } else if(p.y > 0){
+      p.anomalie = true; p.abw = null; anomalien.push({datum:p.x, abw:null});
+    }
+  });
+  var d = pts.map(function(p,i){ return (i===0?"M":"L")+X(i).toFixed(1)+","+Y(p.y).toFixed(1); }).join(" ");
+  var dots = pts.map(function(p,i){
+    if(!p.anomalie) return "";
+    var t = esc(p.x)+": "+(istEuro?fmtEur(p.y):fmtN(p.y))+(p.abw!=null?" ("+(p.abw>0?"+":"")+Math.round(p.abw*100)+"% vs. Ø Vorwoche)":" (vorher 0)");
+    return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(p.y).toFixed(1)+'" r="3.4" fill="var(--crit)"><title>'+t+'</title></circle>';
+  }).join("");
+  var last = pts[pts.length-1];
+  var svg = '<svg viewBox="0 0 '+w+' '+h+'" style="width:100%;height:56px;display:block" preserveAspectRatio="none">'
+    +'<path d="'+d+'" fill="none" stroke="'+farbe+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>'
+    +dots
+    +'<circle cx="'+X(pts.length-1).toFixed(1)+'" cy="'+Y(last.y).toFixed(1)+'" r="2.6" fill="'+farbe+'"/>'
+    +'</svg>';
+  el.innerHTML = svg;
+  var hintHtml = anomalien.length ? ('<div class="perfhint">⚠ '+anomalien.length+' auffällige Tag'+(anomalien.length>1?'e':'')+': '
+    +anomalien.slice(-4).map(function(a){return a.datum.slice(5)+(a.abw!=null?" ("+(a.abw>0?"+":"")+Math.round(a.abw*100)+"%)":"");}).join(", ")+'</div>') : "";
+  return {last:last.y, hintHtml:hintHtml};
+}
+function renderPerfTrend(){
+  var tage = PERF_TAGE || [];
+  if(tage.length < 2) return;
+  var metrics = [
+    ["klicks","Klicks","#0891b2",false],
+    ["sales","Sales","#059669",false],
+    ["umsatz","Umsatz","#6d28d9",true],
+    ["provision","Provision","#e34948",true]
+  ];
+  var grid = document.getElementById("perfgrid");
+  metrics.forEach(function(m){
+    var key=m[0], lab=m[1], farbe=m[2], istEuro=m[3];
+    if(!(key in tage[tage.length-1])) return;
+    var card = document.createElement("div");
+    card.className = "perfcard";
+    var head = document.createElement("h4"); head.textContent = lab; card.appendChild(head);
+    var val = document.createElement("div"); val.className = "pfval"; card.appendChild(val);
+    var chartEl = document.createElement("div"); chartEl.className = "perfchart"; card.appendChild(chartEl);
+    var res = trendChart(chartEl, tage, key, farbe, istEuro);
+    val.textContent = istEuro ? fmtEur(res.last) : fmtN(res.last);
+    if(res.hintHtml) card.insertAdjacentHTML("beforeend", res.hintHtml);
+    grid.appendChild(card);
+  });
+}
+renderPerfTrend();
+</script>
+<footer>Plan: Google Sheet „Mein Schiff | WPP Media Affiliate Marketing 2026“, Blatt September-Kampagne 2026 (Refresh 20.09. via Drive-Connector, inhaltlich unveraendert, 18 Zeilen) · Ist: Outlook-Ordner AA. TUI Cruises > Angebote > Aktionen > September 2026 + Sales-Anlass Oktober (Sales-Anlass-Thread 30 Tage still, Nachfass-Entwurf 49075 weiterhin unversendet; Kabinenlotse 24 Tage still, Draft 49850 unversendet; BravoGutschein 24 Tage still, Draft 50262 unversendet; My-Cruiseline-Compliance-Frage 19 Tage ohne TUI-Antwort, Draft 50263 unversendet; Checkout-Charlie-Antwort Draft 50167 unversendet; HolidayPirates-Draft 50343 vom 14.09. vermutlich versendet) · AWIN-Programm 9127 (592 Publisher, Payback 426667/469409 herausgerechnet, alle 16 aktiven Sheet-Publisher-IDs per API-Abgleich erneut bestaetigt, keine neuen/unbekannten Treffer, Savoo/300443 weiterhin bewusst nicht reaktiviert) + Programm 104581 (105 Publisher, Acties.nl/325023 und EuroClix/328863 bestaetigt gejoint; Acties.nl-ID-Verdacht heute entkraeftet: primaryRegion NL + salesRegion BE passt zu Franke Media/Acties.nl+Deals.be) · perf_live Stand 20.09. (20 Kampagnentage). · Stand 25.09.2026</footer>
+</div></body></html>
